@@ -1,0 +1,7083 @@
+{
+ "0": {
+  "name": "Transport to Tallon Overworld South",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 1,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     1,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "1": {
+  "name": "Quarry Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 2,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_Retraversal",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     1,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 0,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     1,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "2": {
+  "name": "Main Quarry",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 3,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 1,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00a Mines Main",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00a Phazon",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     1,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 4,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Savestation",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Savestation Mines Main",
+      0
+     ],
+     [
+      "Waypoint",
+      "Waypoint",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     1,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 3,
+    "to": 5,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     1,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {
+   "grapple": 1,
+   "spider": 24
+  },
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {
+   "wave": 1
+  },
+  "pb_only": []
+ },
+ "3": {
+  "name": "Waste Disposal",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 2,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     1,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 6,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {
+   "morph_door": 4
+  },
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "4": {
+  "name": "Save Station Mines A",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 2,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     1,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "5": {
+  "name": "Security Access A",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 2,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      3
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      3
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      3
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      3
+     ],
+     [
+      "SpecialFunction",
+      "SpecialFunction PlayerInAreaRelay",
+      3
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 7,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      3
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      3
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      3
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      3
+     ],
+     [
+      "Trigger",
+      "Trigger",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": [
+   [
+    "DamageableTrigger",
+    "DamageableTrigger",
+    0
+   ]
+  ]
+ },
+ "6": {
+  "name": "Ore Processing",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 8,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1-component",
+      4
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2-component",
+      4
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 9,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 3,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     1,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 3,
+    "to": 10,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1-component",
+      4
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2-component",
+      4
+     ],
+     [
+      "Trigger",
+      "Trigger - decrement loayer loading",
+      2
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {
+   "grapple": 2,
+   "spider": 90
+  },
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": [
+   [
+    "Platform",
+    "Platform",
+    0
+   ]
+  ]
+ },
+ "7": {
+  "name": "Mine Security Station",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 5,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      0
+     ],
+     [
+      "SpecialFunction",
+      "SpecialFunction PlayerInAreaRelay",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00b Isogi",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00b Mines Main",
+      1
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 11,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "CoverPoint",
+      "CoverPoint",
+      4
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00c Isogi",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00c Mines Main",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up_ball",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_DoorOpen-component-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_activate_bottom_camera_trigger",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_no_ledge_avoidance",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     1,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 12,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": [
+   [
+    "DamageableTrigger",
+    "DamageableTrigger",
+    0
+   ]
+  ]
+ },
+ "8": {
+  "name": "Research Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 6,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 13,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {
+   "spider": 22
+  },
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "9": {
+  "name": "Storage Depot B",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 6,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     1,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "10": {
+  "name": "Elevator Access A",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 6,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 14,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {
+   "spider": 24
+  },
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "11": {
+  "name": "Security Access B",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 13,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up_ball",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_DoorOpen-component-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_activate_bottom_camera_trigger",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_no_ledge_avoidance",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 7,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up Activator",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_DoorOpen-component-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     1,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "12": {
+  "name": "Storage Depot A",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 7,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "13": {
+  "name": "Elite Research",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 8,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Isogi 00d",
+      4
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Yoin 00d",
+      4
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 11,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      1
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Isogi 00c",
+      4
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Yoin 00c",
+      4
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up Activator",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_DoorOpen-component-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": [
+   [
+    "Platform",
+    "Platform Ice Crate",
+    2
+   ],
+   [
+    "Platform",
+    "Platform_holding Tank",
+    1
+   ]
+  ]
+ },
+ "14": {
+  "name": "Elevator A",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 10,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00e Elevator",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00e Mines Main",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 15,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "DebrisExtended",
+      "Chunk DebrisExtended 05-component-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00f Elevator",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00f Yoin",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "15": {
+  "name": "Elite Control Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 14,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 16,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     1,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "16": {
+  "name": "Elite Control",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 17,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      1
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      1
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      1
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      1
+     ],
+     [
+      "SpecialFunction",
+      "SpecialFunction PlayerInAreaRelay",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00g Battle 3",
+      3
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00g Yoin",
+      3
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Battle 3 00g",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Shortbattle 00g",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Yoin 00g Elite",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Yoin 00g Troopers",
+      1
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 15,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00f Battle 3",
+      3
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00f Yoin",
+      3
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Battle 3 00f",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music ShortBattle 00f",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Yoin 00f Elite",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Yoin 00f Troopers",
+      1
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     1,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 18,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00h Battle 3",
+      3
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00h Yoin",
+      3
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Battle 3 00h",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Yoin 00h Troopers",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up_ball",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_DoorOpen-component-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_activate_bottom_camera_trigger",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_no_ledge_avoidance",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "17": {
+  "name": "Maintenance Tunnel",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 16,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 19,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": [
+   [
+    "Platform",
+    "Platform - destructible rock",
+    0
+   ]
+  ]
+ },
+ "18": {
+  "name": "Ventilation Shaft",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 20,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     1,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 16,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "SpawnPoint",
+      "Spawn point",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up Activator",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_DoorOpen-component-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {
+   "halfpipe": 3
+  },
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": [
+   [
+    "Platform",
+    "Platform - Grating",
+    0
+   ]
+  ]
+ },
+ "19": {
+  "name": "Phazon Processing Center",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 21,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 17,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 22,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {
+   "spider": 132
+  },
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": [
+   [
+    "DamageableTrigger",
+    "DamageableTrigger",
+    0
+   ]
+  ]
+ },
+ "20": {
+  "name": "Omega Research",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 23,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      2
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      2
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      2
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Mapstation Battle 3",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Mapstation Battle Savestation",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Mapstation CLEAR Savestation",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Mapstation CLEAR Yoin",
+      1
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     1,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 18,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      2
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      2
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      2
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      2
+     ],
+     [
+      "SpecialFunction",
+      "SpecialFunction PlayerInAreaRelay",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Battle 3",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Yoin",
+      1
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 24,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      2
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      2
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      2
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Battle 3",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Yoin",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up Activator",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_DoorOpen-component-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": [
+   [
+    "Platform",
+    "Platform - destructible rock",
+    0
+   ]
+  ]
+ },
+ "21": {
+  "name": "Transport Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 19,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     1,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 25,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {
+   "grapple": 2
+  },
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "22": {
+  "name": "Processing Center Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 19,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 26,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "23": {
+  "name": "Map Station Mines",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 20,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "24": {
+  "name": "Dynamo Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 27,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 20,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up_ball",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_DoorOpen-component-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_activate_bottom_camera_trigger",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_camera_reset_door_activate",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_no_ledge_avoidance",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "25": {
+  "name": "Transport to Magmoor Caverns South",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 21,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "26": {
+  "name": "Elite Quarters",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 28,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 22,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "27": {
+  "name": "Central Dynamo",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 24,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      1
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      1
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      1
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00j Battle 3",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00j Battle Yoin",
+      2
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 29,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Collision Blocker",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Effect",
+      "Effect - dustDebris",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00k Battle 3",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00k Battle Yoin",
+      2
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 30,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      1
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      1
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      1
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Pirate Yoin",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Savestation Battle",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Savestation Battle3",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Savestation Dead",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Savestation Yoin",
+      2
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     1,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": [
+   [
+    "Platform",
+    "Platform - destructible rock",
+    0
+   ]
+  ]
+ },
+ "28": {
+  "name": "Elite Quarters Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 31,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 26,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "29": {
+  "name": "Quarantine Access A",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 27,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     1,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 32,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     1,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "30": {
+  "name": "Save Station Mines B",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 27,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "31": {
+  "name": "Metroid Quarantine B",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 33,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "SpawnPoint",
+      "Spawn point",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 28,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 34,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {
+   "grapple": 1,
+   "spider": 24
+  },
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "32": {
+  "name": "Metroid Quarantine A",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 29,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00j Battle 2",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00j Battle Yoin",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00j Clear Phazon",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00j Clear Yoin",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      3
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      3
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     1,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 35,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00k Battle 2",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00k Battle Phazon",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger_Phazon Effects",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {
+   "spider": 22
+  },
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": [
+   [
+    "Platform",
+    "Platform",
+    0
+   ],
+   [
+    "Platform",
+    "Platform",
+    0
+   ],
+   [
+    "Platform",
+    "Platform",
+    5
+   ]
+  ]
+ },
+ "33": {
+  "name": "Quarantine Access B",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 31,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 36,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "34": {
+  "name": "Save Station Mines C",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 31,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "35": {
+  "name": "Elevator Access B",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 32,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     1,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 37,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "36": {
+  "name": "Fungal Hall B",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 38,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 33,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 39,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "37": {
+  "name": "Elevator B",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 35,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 40,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "38": {
+  "name": "Missile Station Mines",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 36,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "39": {
+  "name": "Phazon Mining Tunnel",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 36,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 41,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": [
+   [
+    "DamageableTrigger",
+    "DamageableTrigger",
+    0
+   ]
+  ]
+ },
+ "40": {
+  "name": "Fungal Hall Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 41,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 37,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "41": {
+  "name": "Fungal Hall A",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 39,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     1,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 40,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     1,
+     2,
+     2
+    ],
+    "key_vuln_full": [
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1,
+     2,
+     2,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": []
+ }
+}

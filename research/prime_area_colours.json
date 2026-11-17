@@ -1,0 +1,256 @@
+{
+ "Impact Crater": {
+  "textures": 298,
+  "mean": "442D32",
+  "hue": 348,
+  "sat": 0.2,
+  "kinds": {
+   "grey": 84,
+   "purple": 72,
+   "warm": 121,
+   "other": 5,
+   "blue": 16
+  },
+  "blue_mean": "223F57",
+  "warm_mean": "57362E",
+  "warm_hue": 12,
+  "warm_sat": 0.307,
+  "rooms": {
+   "Crater Entry Point": {
+    "textures": 47,
+    "mean": "4E3A32"
+   },
+   "Crater Tunnel A": {
+    "textures": 39,
+    "mean": "483B38"
+   },
+   "Phazon Core": {
+    "textures": 80,
+    "mean": "513531"
+   },
+   "Crater Missile Station": {
+    "textures": 50,
+    "mean": "48372F"
+   },
+   "Crater Tunnel B": {
+    "textures": 50,
+    "mean": "45302A"
+   },
+   "Phazon Infusion Chamber": {
+    "textures": 49,
+    "mean": "4B3333"
+   },
+   "Subchamber One": {
+    "textures": 39,
+    "mean": "4A3135"
+   },
+   "Subchamber Two": {
+    "textures": 41,
+    "mean": "49332F"
+   },
+   "Subchamber Three": {
+    "textures": 51,
+    "mean": "48352F"
+   },
+   "Subchamber Four": {
+    "textures": 37,
+    "mean": "3A282A"
+   },
+   "Subchamber Five": {
+    "textures": 20,
+    "mean": "36272B"
+   },
+   "Metroid Prime Lair": {
+    "textures": 53,
+    "mean": "2F262E"
+   }
+  }
+ },
+ "Phazon Mines": {
+  "textures": 870,
+  "mean": "403541",
+  "hue": 295,
+  "sat": 0.1,
+  "kinds": {
+   "grey": 432,
+   "warm": 64,
+   "purple": 264,
+   "other": 23,
+   "blue": 87
+  },
+  "blue_mean": "28384C",
+  "warm_mean": "48372B",
+  "warm_hue": 25,
+  "warm_sat": 0.254,
+  "rooms": {
+   "Transport to Tallon Overworld South": {
+    "textures": 29,
+    "mean": "443831"
+   },
+   "Quarry Access": {
+    "textures": 39,
+    "mean": "3F404D"
+   },
+   "Main Quarry": {
+    "textures": 82,
+    "mean": "443C3E"
+   },
+   "Waste Disposal": {
+    "textures": 43,
+    "mean": "454245"
+   },
+   "Save Station Mines A": {
+    "textures": 41,
+    "mean": "44413B"
+   },
+   "Security Access A": {
+    "textures": 31,
+    "mean": "4C4548"
+   },
+   "Ore Processing": {
+    "textures": 77,
+    "mean": "434043"
+   },
+   "Mine Security Station": {
+    "textures": 87,
+    "mean": "424041"
+   },
+   "Research Access": {
+    "textures": 36,
+    "mean": "413B37"
+   },
+   "Storage Depot B": {
+    "textures": 28,
+    "mean": "3D3638"
+   },
+   "Elevator Access A": {
+    "textures": 33,
+    "mean": "463D3B"
+   },
+   "Security Access B": {
+    "textures": 38,
+    "mean": "484344"
+   },
+   "Storage Depot A": {
+    "textures": 35,
+    "mean": "3B3A3A"
+   },
+   "Elite Research": {
+    "textures": 95,
+    "mean": "3E3B3A"
+   },
+   "Elevator A": {
+    "textures": 49,
+    "mean": "443C38"
+   },
+   "Elite Control Access": {
+    "textures": 38,
+    "mean": "494245"
+   },
+   "Elite Control": {
+    "textures": 80,
+    "mean": "36383A"
+   },
+   "Maintenance Tunnel": {
+    "textures": 29,
+    "mean": "443B3D"
+   },
+   "Ventilation Shaft": {
+    "textures": 40,
+    "mean": "484441"
+   },
+   "Phazon Processing Center": {
+    "textures": 100,
+    "mean": "4C3A50"
+   },
+   "Omega Research": {
+    "textures": 79,
+    "mean": "383735"
+   },
+   "Transport Access": {
+    "textures": 36,
+    "mean": "373C45"
+   },
+   "Processing Center Access": {
+    "textures": 36,
+    "mean": "3D3D43"
+   },
+   "Map Station Mines": {
+    "textures": 35,
+    "mean": "413B36"
+   },
+   "Dynamo Access": {
+    "textures": 63,
+    "mean": "413F3C"
+   },
+   "Transport to Magmoor Caverns South": {
+    "textures": 38,
+    "mean": "423835"
+   },
+   "Elite Quarters": {
+    "textures": 56,
+    "mean": "3D3C3F"
+   },
+   "Central Dynamo": {
+    "textures": 65,
+    "mean": "39353C"
+   },
+   "Elite Quarters Access": {
+    "textures": 36,
+    "mean": "45433D"
+   },
+   "Quarantine Access A": {
+    "textures": 53,
+    "mean": "433F41"
+   },
+   "Save Station Mines B": {
+    "textures": 36,
+    "mean": "45423D"
+   },
+   "Metroid Quarantine B": {
+    "textures": 99,
+    "mean": "3A393F"
+   },
+   "Metroid Quarantine A": {
+    "textures": 93,
+    "mean": "373A40"
+   },
+   "Quarantine Access B": {
+    "textures": 33,
+    "mean": "374655"
+   },
+   "Save Station Mines C": {
+    "textures": 46,
+    "mean": "3D3C39"
+   },
+   "Elevator Access B": {
+    "textures": 38,
+    "mean": "3E4047"
+   },
+   "Fungal Hall B": {
+    "textures": 46,
+    "mean": "403F46"
+   },
+   "Elevator B": {
+    "textures": 56,
+    "mean": "413C3A"
+   },
+   "Missile Station Mines": {
+    "textures": 40,
+    "mean": "3F403E"
+   },
+   "Phazon Mining Tunnel": {
+    "textures": 32,
+    "mean": "373C49"
+   },
+   "Fungal Hall Access": {
+    "textures": 41,
+    "mean": "3A383E"
+   },
+   "Fungal Hall A": {
+    "textures": 63,
+    "mean": "434248"
+   }
+  }
+ }
+}

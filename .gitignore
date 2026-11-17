@@ -1,0 +1,24 @@
+# Arquivos do Metroid Prime (do jogo original, não versionar)
+research/prime_fs/
+research/prime_textures/
+research/render/
+
+# ROMs e saídas de build (a ROM do SM precisa ser colocada em base/ localmente)
+base/*.sfc
+build/
+
+# Clones externos com .git próprio (vendor/sm, vendor/asar, vendor/LakeSnes, vendor/Flips)
+vendor/
+
+# Ferramentas grandes, binárias ou ambientes locais
+tools/venv/
+tools/dt/
+tools/*.tgz
+
+# Configuração local do Claude Code
+.claude/
+
+# Python e sistema
+__pycache__/
+*.pyc
+.DS_Store

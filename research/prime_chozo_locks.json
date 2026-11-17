@@ -1,0 +1,4945 @@
+{
+ "0": {
+  "name": "Transport to Tallon Overworld North",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 1,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      1
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "1": {
+  "name": "Ruins Entrance",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 2,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      1
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 0,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      2
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "2": {
+  "name": "Main Plaza",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 3,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - deactivate wasp trigger",
+      4
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 1,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Waypoint",
+      "Waypoint Snappoint for macro",
+      3
+     ]
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 4,
+    "objects": [
+     [
+      "Actor",
+      "Actor Missile Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Effect",
+      "Effect Explosion Gibs",
+      0
+     ],
+     [
+      "NewCameraShaker",
+      "New Camera Shaker",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Missile Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound-Box Explode",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 3,
+    "to": 5,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger-Activate Upper Beetle",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger-Deactivate Upper Beetle",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 4,
+    "to": 6,
+    "objects": [
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "POI_01_Main one way door.scan",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 5,
+    "to": 7,
+    "objects": [
+     [
+      "CameraHintTrigger",
+      "Trigger - Morph Tunnel - Main Plaza - Dec",
+      0
+     ],
+     [
+      "CameraHintTrigger",
+      "Trigger - Morph Tunnel - Main Plaza - Inc",
+      0
+     ],
+     [
+      "CameraWaypoint",
+      "CameraWaypoint",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area Morphball",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "grapple": 1,
+   "halfpipe": 3,
+   "morph_door": 1
+  }
+ },
+ "3": {
+  "name": "Ruined Fountain Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 2,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 8,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "4": {
+  "name": "Ruined Shrine Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 9,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 2,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "5": {
+  "name": "Nursery Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 10,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1-component",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2-component",
+      2
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 2,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1-component",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2-component",
+      1
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "6": {
+  "name": "Plaza Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 2,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 11,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Activate From Maproom loading",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "7": {
+  "name": "Piston Tunnel",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 2,
+    "objects": [
+     [
+      "CameraHintTrigger",
+      "Trigger - Morph Tunnel - Main Plaza - Dec",
+      0
+     ],
+     [
+      "CameraHintTrigger",
+      "Trigger - Morph Tunnel - Main Plaza - Inc",
+      0
+     ],
+     [
+      "CameraWaypoint",
+      "CameraWaypoint",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area Morphball",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 12,
+    "objects": [
+     [
+      "CameraWaypoint",
+      "CameraWaypoint",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area Morphball",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Door",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "morph_door": 2
+  }
+ },
+ "8": {
+  "name": "Ruined Fountain",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 13,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger-Ac Shaker",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger-Deac Shaker",
+      1
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 3,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger-Deac Shaker",
+      1
+     ]
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 14,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger-Ac Shaker",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger-Deac Shaker",
+      1
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "heat": 2,
+   "spider": 46,
+   "water": 2
+  }
+ },
+ "9": {
+  "name": "Ruined Shrine",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 15,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music x01 Battle 2",
+      3
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music x01 Samus",
+      3
+     ],
+     [
+      "Trigger",
+      "sound on trigger1",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 4,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music x02 Battle 2",
+      3
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music x02 Samus",
+      3
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "breakable": 1,
+   "halfpipe": 8,
+   "heat": 6,
+   "spider": 28
+  }
+ },
+ "10": {
+  "name": "Eyon Tunnel",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 16,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 5,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "11": {
+  "name": "Vault",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 17,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 6,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "12": {
+  "name": "Training Chamber",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 18,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      1
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      1
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      1
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      1
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 7,
+    "objects": [
+     [
+      "CameraWaypoint",
+      "CameraWaypoint",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area Morphball",
+      0
+     ],
+     [
+      "Effect",
+      "Effect",
+      1
+     ],
+     [
+      "Platform",
+      "Platform-ghostball",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger Door",
+      0
+     ],
+     [
+      "Waypoint",
+      "Waypoint",
+      1
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "bomb_slot": 15,
+   "halfpipe": 5,
+   "morph_door": 1,
+   "spider": 28
+  }
+ },
+ "13": {
+  "name": "Arboretum Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 19,
+    "objects": [
+     [
+      "Actor",
+      "Actor Missile Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Effect",
+      "Effect Explosion Gibs",
+      0
+     ],
+     [
+      "NewCameraShaker",
+      "New Camera Shaker",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Missile Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound-Box Explode",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 8,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "14": {
+  "name": "Meditation Fountain",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 20,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Lava-component",
+      0
+     ],
+     [
+      "Steam",
+      "Steam",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 8,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "heat": 8,
+   "lava": 1,
+   "water": 2
+  }
+ },
+ "15": {
+  "name": "Tower of Light Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 21,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 9,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "16": {
+  "name": "Ruined Nursery",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 22,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 23,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 10,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "17": {
+  "name": "Vault Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 11,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 24,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "18": {
+  "name": "Training Chamber Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 20,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 12,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "heat": 3
+  }
+ },
+ "19": {
+  "name": "Arboretum",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 25,
+    "objects": [
+     [
+      "Actor",
+      "Actor Missile Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Effect",
+      "Effect Flop",
+      0
+     ],
+     [
+      "NewCameraShaker",
+      "New Camera Shaker",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Missile Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound-Box Explode",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 13,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 26,
+    "objects": [
+     [
+      "Actor",
+      "Actor Missile Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Effect",
+      "Effect Explosion Gibs",
+      0
+     ],
+     [
+      "NewCameraShaker",
+      "New Camera Shaker",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Missile Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound-Box Explode",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "breakable": 2,
+   "heat": 2,
+   "water": 2
+  }
+ },
+ "20": {
+  "name": "Magma Pool",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 18,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 14,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "grapple": 2,
+   "heat": 2,
+   "lava": 1,
+   "water": 1
+  }
+ },
+ "21": {
+  "name": "Tower of Light",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 15,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 27,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up_ball",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_DoorOpen-component-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_activate_bottom_camera_trigger",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_no_ledge_avoidance",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "water": 2
+  }
+ },
+ "22": {
+  "name": "Save Station 1",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 16,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "23": {
+  "name": "North Atrium",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 16,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 28,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger-Scarabs-Start",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "24": {
+  "name": "Transport to Magmoor Caverns North",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 29,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 17,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 30,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "25": {
+  "name": "Sunchamber Lobby",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 19,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1-component",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2-component",
+      1
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 31,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "26": {
+  "name": "Gathering Hall Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 32,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "CameraWaypoint",
+      "CameraWaypoint",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 19,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "CameraWaypoint",
+      "CameraWaypoint",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "27": {
+  "name": "Tower Chamber",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 21,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up Activator",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_DoorOpen-component-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "28": {
+  "name": "Ruined Gallery",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 23,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 33,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 34,
+    "objects": [
+     [
+      "Actor",
+      "Actor Missile Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Effect",
+      "Effect Explosion Gibs",
+      0
+     ],
+     [
+      "NewCameraShaker",
+      "New Camera Shaker",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Missile Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound-Box Explode",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "heat": 2,
+   "water": 2
+  }
+ },
+ "29": {
+  "name": "Sun Tower",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 35,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 24,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "spider": 74
+  }
+ },
+ "30": {
+  "name": "Transport Access North",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 36,
+    "objects": [
+     [
+      "Actor",
+      "Actor Missile Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Effect",
+      "Effect Explosion Gibs",
+      0
+     ],
+     [
+      "NewCameraShaker",
+      "New Camera Shaker",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Missile Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound-Box Explode",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 24,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "31": {
+  "name": "Sunchamber Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 37,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 25,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "32": {
+  "name": "Gathering Hall",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 38,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 26,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 39,
+    "objects": [
+     [
+      "Actor",
+      "Actor Missile Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Effect",
+      "Effect Explosion Gibs",
+      0
+     ],
+     [
+      "NewCameraShaker",
+      "New Camera Shaker",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Missile Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound-Box Explode",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger-Metaree TriG Ac",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 3,
+    "to": 40,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "water": 2
+  }
+ },
+ "33": {
+  "name": "Totem Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 28,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 36,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "water": 2
+  }
+ },
+ "34": {
+  "name": "Map Station",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 28,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1-component",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1-component",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2-component",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2-component",
+      2
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "35": {
+  "name": "Sun Tower Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 37,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 29,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "water": 1
+  }
+ },
+ "36": {
+  "name": "Hive Totem",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 33,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 30,
+    "objects": [
+     [
+      "Actor",
+      "Actor Missile Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Effect",
+      "Effect Flop",
+      0
+     ],
+     [
+      "NewCameraShaker",
+      "New Camera Shaker",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Missile Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound-Box Explode",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "water": 5
+  }
+ },
+ "37": {
+  "name": "Sunchamber",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 35,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      1
+     ],
+     [
+      "Actor",
+      "Actor Door Lock",
+      2
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      1
+     ],
+     [
+      "PointOfInterest",
+      "Relay - Flaahgrah Resurface",
+      2
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      1
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      2
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      1
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      2
+     ],
+     [
+      "SpecialFunction",
+      "SpecialFunction PlayerInAreaRelay",
+      1
+     ],
+     [
+      "SpecialFunction",
+      "SpecialFunction PlayerInAreaRelay",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00v Battle 2",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00v Samus",
+      2
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 31,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00L Battle 2",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00L Samus",
+      2
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "bomb_slot": 47,
+   "heat": 2,
+   "water": 2
+  }
+ },
+ "38": {
+  "name": "Watery Hall Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 32,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 41,
+    "objects": [
+     [
+      "Actor",
+      "Actor Missile Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Effect",
+      "Effect Flop",
+      0
+     ],
+     [
+      "NewCameraShaker",
+      "New Camera Shaker",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Missile Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound-Box Explode",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_deactivate_northhall_metarees",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "water": 2
+  }
+ },
+ "39": {
+  "name": "Save Station 2",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 32,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "40": {
+  "name": "East Atrium",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 32,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 42,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "41": {
+  "name": "Watery Hall",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 43,
+    "objects": [
+     [
+      "Actor",
+      "Actor Missile Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "CameraWaypoint",
+      "CameraWaypoint",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Effect",
+      "Effect Explosion Gibs",
+      0
+     ],
+     [
+      "NewCameraShaker",
+      "New Camera Shaker",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Missile Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound-Box Explode",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 38,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "breakable": 1,
+   "water": 2
+  }
+ },
+ "42": {
+  "name": "Energy Core Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 44,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 40,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "breakable": 3
+  }
+ },
+ "43": {
+  "name": "Dynamo Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 41,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 45,
+    "objects": [
+     [
+      "Actor",
+      "Actor Missile Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Effect",
+      "Effect Explosion Gibs",
+      0
+     ],
+     [
+      "NewCameraShaker",
+      "New Camera Shaker",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Missile Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound-Box Explode",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "44": {
+  "name": "Energy Core",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 46,
+    "objects": [
+     [
+      "Door",
+      "Door_Area Morphball",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music  Special 1 Puzzle",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Special 1 Samus",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 47,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      0
+     ],
+     [
+      "SpecialFunction",
+      "SpecialFunction PlayerInAreaRelay",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 42,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00h Puzzle",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00h Samus",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "bomb_slot": 25,
+   "morph_door": 1,
+   "water": 10
+  }
+ },
+ "45": {
+  "name": "Dynamo",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 43,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "spider": 32
+  }
+ },
+ "46": {
+  "name": "Burn Dome Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 48,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 44,
+    "objects": [
+     [
+      "Door",
+      "Door_Area Morphball",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "morph_door": 1
+  }
+ },
+ "47": {
+  "name": "West Furnace Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 44,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - From 15_energycores",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 49,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - From 16_furnaces",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "48": {
+  "name": "Burn Dome",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 46,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "POI_Locked door.scan",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "breakable": 2,
+   "water": 2
+  }
+ },
+ "49": {
+  "name": "Furnace",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 50,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Naka",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Samus",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music x06 Battle 2",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music x06 Battle Naka",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music x06 Clear Naka",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music x06 Clear Samus",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger_Ghosttest",
+      2
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 47,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 51,
+    "objects": [
+     [
+      "CameraWaypoint",
+      "CameraWaypoint",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area Morphball",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - 00i Battle 2",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00i Battle Naka",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00i Clear Naka",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 00i Clear Samus",
+      2
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Naka",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Samus",
+      1
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "halfpipe": 3,
+   "morph_door": 1,
+   "spider": 191
+  }
+ },
+ "50": {
+  "name": "East Furnace Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 52,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 49,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "51": {
+  "name": "Crossway Access West",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 53,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 49,
+    "objects": [
+     [
+      "CameraWaypoint",
+      "CameraWaypoint",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area Morphball",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "halfpipe": 2,
+   "morph_door": 1
+  }
+ },
+ "52": {
+  "name": "Hall of the Elders",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 54,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music ChozoBowling Reflecting Pool",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Fight Battle2 X2",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Fight Naka X2",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Naka Reflecting Pool",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 55,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music ChozoBowling Halfpipe A",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Fight Battle2 Halfpipe A",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Fight Naka Halfpipe A",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Naka Halfpipe A",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 50,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music ChozoBowling X06",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Fight Battle2 X06",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Fight Naka X06",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Naka X06",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 3,
+    "to": 56,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music ChozoBowling Halfpipe B",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Fight Battle2 Halfpipe B",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Fight Naka Halfpipe B",
+      1
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music Naka Halfpipe A",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 4,
+    "to": 57,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "CameraWaypoint",
+      "CameraWaypoint Target",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Sound",
+      "chozo move rumble sound",
+      0
+     ],
+     [
+      "Sound",
+      "chozo move sound",
+      0
+     ],
+     [
+      "Trigger",
+      "Activate Camera Hint Trigger",
+      0
+     ],
+     [
+      "Trigger",
+      "Camera Hint Trigger Under Statue",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up Activator",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_DoorOpen-component-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "halfpipe": 13,
+   "morph_door": 1,
+   "spider": 24
+  }
+ },
+ "53": {
+  "name": "Crossway",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 56,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "sound off trigger1-component",
+      0
+     ],
+     [
+      "Trigger",
+      "sound off trigger2-component",
+      0
+     ],
+     [
+      "Trigger",
+      "sound on trigger1-component",
+      0
+     ],
+     [
+      "Trigger",
+      "sound on trigger2-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 51,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "sound off trigger1-component",
+      0
+     ],
+     [
+      "Trigger",
+      "sound off trigger2-component",
+      0
+     ],
+     [
+      "Trigger",
+      "sound on trigger1",
+      0
+     ],
+     [
+      "Trigger",
+      "sound on trigger2",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 55,
+    "objects": [
+     [
+      "Actor",
+      "Actor Missile Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Effect",
+      "Effect Explosion Gibs",
+      0
+     ],
+     [
+      "NewCameraShaker",
+      "New Camera Shaker",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Missile Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound-Box Explode",
+      0
+     ],
+     [
+      "Trigger",
+      "sound off trigger1 red",
+      0
+     ],
+     [
+      "Trigger",
+      "sound off trigger2 red",
+      0
+     ],
+     [
+      "Trigger",
+      "sound on trigger1 red",
+      0
+     ],
+     [
+      "Trigger",
+      "sound on trigger2 red",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "bomb_slot": 16,
+   "halfpipe": 7,
+   "spider": 24
+  }
+ },
+ "54": {
+  "name": "Reflecting Pool Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 58,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 52,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "55": {
+  "name": "Elder Hall Access",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 52,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 53,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "halfpipe": 2
+  }
+ },
+ "56": {
+  "name": "Crossway Access South",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 53,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 52,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "halfpipe": 2
+  }
+ },
+ "57": {
+  "name": "Elder Chamber",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 52,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger Push Up_ball",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_DoorOpen-component-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_activate_bottom_camera_trigger",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger_no_ledge_avoidance",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "58": {
+  "name": "Reflecting Pool",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 59,
+    "objects": [
+     [
+      "Actor",
+      "Actor Missile Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Effect",
+      "Effect Explosion Gibs",
+      0
+     ],
+     [
+      "NewCameraShaker",
+      "New Camera Shaker",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Missile Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound-Box Explode",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 60,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 54,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 3,
+    "to": 61,
+    "objects": [
+     [
+      "Actor",
+      "Actor Missile Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Effect",
+      "Effect Explosion Gibs",
+      0
+     ],
+     [
+      "NewCameraShaker",
+      "New Camera Shaker",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Missile Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound-Box Explode",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {
+   "water": 1
+  }
+ },
+ "59": {
+  "name": "Save Station 3",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 58,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 62,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "60": {
+  "name": "Transport Access South",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 58,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 63,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "61": {
+  "name": "Antechamber",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 58,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "62": {
+  "name": "Transport to Tallon Overworld East",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 59,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ },
+ "63": {
+  "name": "Transport to Tallon Overworld South",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 60,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      0
+     ]
+    ]
+   }
+  ],
+  "features": {}
+ }
+}

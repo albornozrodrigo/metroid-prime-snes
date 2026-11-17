@@ -1,0 +1,911 @@
+{
+ "0": {
+  "name": "Crater Entry Point",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 1,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "1": {
+  "name": "Crater Tunnel A",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 2,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 0,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "2": {
+  "name": "Phazon Core",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 3,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 1,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   },
+   {
+    "dock": 2,
+    "to": 4,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "3": {
+  "name": "Crater Missile Station",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 2,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 1",
+      0
+     ],
+     [
+      "Trigger",
+      "Trigger - Play Music 2",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "4": {
+  "name": "Crater Tunnel B",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 5,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   },
+   {
+    "dock": 1,
+    "to": 2,
+    "objects": [
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {
+   "spider": 77
+  },
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "5": {
+  "name": "Phazon Infusion Chamber",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 6,
+    "objects": [],
+    "key_vuln": null,
+    "key_vuln_full": null
+   },
+   {
+    "dock": 1,
+    "to": 4,
+    "objects": [
+     [
+      "Actor",
+      "Actor Door Lock",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield-component",
+      0
+     ],
+     [
+      "Actor",
+      "Actor_DoorShield_Key-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorKey-component-component",
+      0
+     ],
+     [
+      "DamageableTrigger",
+      "Trigger_DoorUnlock-component",
+      0
+     ],
+     [
+      "Door",
+      "Door_Area-component",
+      0
+     ],
+     [
+      "PointOfInterest",
+      "Point Of Interest Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Lock",
+      0
+     ],
+     [
+      "Sound",
+      "Sound - Door Unlock",
+      0
+     ],
+     [
+      "SpawnPoint",
+      "Spawn point",
+      0
+     ]
+    ],
+    "key_vuln": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "key_vuln_full": [
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     1,
+     1
+    ]
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "6": {
+  "name": "Subchamber One",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 5,
+    "objects": [],
+    "key_vuln": null,
+    "key_vuln_full": null
+   },
+   {
+    "dock": 1,
+    "to": 7,
+    "objects": [],
+    "key_vuln": null,
+    "key_vuln_full": null
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "7": {
+  "name": "Subchamber Two",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 6,
+    "objects": [],
+    "key_vuln": null,
+    "key_vuln_full": null
+   },
+   {
+    "dock": 1,
+    "to": 8,
+    "objects": [],
+    "key_vuln": null,
+    "key_vuln_full": null
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "8": {
+  "name": "Subchamber Three",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 9,
+    "objects": [],
+    "key_vuln": null,
+    "key_vuln_full": null
+   },
+   {
+    "dock": 1,
+    "to": 7,
+    "objects": [
+     [
+      "Platform",
+      "Platform_ Entrance Ceiling Piece",
+      0
+     ]
+    ],
+    "key_vuln": null,
+    "key_vuln_full": null
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "9": {
+  "name": "Subchamber Four",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 10,
+    "objects": [],
+    "key_vuln": null,
+    "key_vuln_full": null
+   },
+   {
+    "dock": 1,
+    "to": 8,
+    "objects": [],
+    "key_vuln": null,
+    "key_vuln_full": null
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "10": {
+  "name": "Subchamber Five",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 9,
+    "objects": [],
+    "key_vuln": null,
+    "key_vuln_full": null
+   },
+   {
+    "dock": 1,
+    "to": 11,
+    "objects": [],
+    "key_vuln": null,
+    "key_vuln_full": null
+   }
+  ],
+  "features": {},
+  "area_damage": 0,
+  "env_fx": null,
+  "beam_only": {},
+  "pb_only": []
+ },
+ "11": {
+  "name": "Metroid Prime Lair",
+  "docks": [
+   {
+    "dock": 0,
+    "to": 10,
+    "objects": [],
+    "key_vuln": null,
+    "key_vuln_full": null
+   }
+  ],
+  "features": {
+   "heat": 4
+  },
+  "area_damage": 0,
+  "env_fx": 0,
+  "beam_only": {},
+  "pb_only": []
+ }
+}
