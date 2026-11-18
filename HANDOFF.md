@@ -4,6 +4,48 @@ Leia junto com o `README.md` (estado do jogo e comandos) e `research/sm_room_for
 (formatos verificados da ROM; a seção 13 cobre Ridley, nave e cronômetro). Este arquivo diz o que
 retomar e como. As specs de cada filha têm o detalhe; o índice é `specs/README.md`.
 
+## Estado atual (17/11/2026): leia primeiro
+
+**Repositório:** o projeto virou um repositório git nesta data (antes não era). Branch `main`, remote `origin` =
+`https://github.com/albornozrodrigo/metroid-prime-snes.git`. Commit local `b09953f` (21b: Wave em `$C461`, débito, `.gitignore`).
+**Push não feito:** erro 403, a conta logada na máquina é `rodrigo-albornoz-sympla`, sem permissão no repositório. Para fazer:
+entrar com a conta `albornozrodrigo` (ou dar permissão de escrita à outra) e rodar `git push -u origin main` na pasta do projeto.
+**Não commitado ainda:** as edições desta data em `specs/21b-efeitos-de-poder.md`, `specs/22-trilhas-prime.md`, `specs/README.md`
+e este `HANDOFF.md`. Commit só com pedido explícito.
+**Ignorado pelo `.gitignore` (de propósito):** `research/prime_fs/`, `research/prime_textures/`, `research/render/` (arquivos
+do jogo Prime), `base/*.sfc` (ROM do SM), `build/`, `vendor/` (clones com `.git` próprio: submódulos seriam a opção certa),
+`.claude/`. Quem clonar precisa colocar a ROM do SM em `base/`.
+
+**ROMs (conferidas em 17/11):** ROM do jogo `build/metroid_prime_snes.ips` sha1 `2f13e756…1423` (igual; validate
+`275 salas, 568 portas, 0 problemas`). ROM de teste `build/teste-21b/metroid_prime_snes.sfc` sha1 `d85d5b97…48552d`.
+Os testes A–D **não** foram rodados nesta data; a ROM do jogo não mudou, então os resultados anteriores valem.
+
+**Épico 21 (artes): em andamento, 21b quase fechada.**
+- 21b: a cor dos tiros foi conferida no emulador pelo assistente (método: mesma sequência nas duas ROMs; os pixels que
+  mudam são o tiro). Power laranja (`e79c29`, `c68c21`), Wave roxo (`9c0073`, `840063`; a base era amarela), Ice azul
+  (`398cef`, `317bd6`). Detalhe em `specs/21b-efeitos-de-poder.md`, seção "Conferência da cor na tela".
+  **Falta:** Plasma, Phazon e Charge (sem cor identificada / não ligado a feixe); decisão do usuário para levar as cores à
+  ROM do jogo (não levar sem aprovação).
+- 21a: parcial (tiles da Samus e dos chefes do SM não medidos).
+- 21c (Metroid Prime no visual do Prime) e 21d (suits da Samus): **não começadas**. Não há pipeline de modelo 3D para
+  pixel art do SNES.
+- **Decisões em aberto do usuário:** (3) escopo (sugestão: 21c antes da 21d) e (4) fidelidade vs limite do SNES.
+
+**Épico 22 (trilhas): em andamento, 22a parcial.**
+- Medido (sem converter nada): 115 arquivos `.dsp` (a proposta dizia 119), todos a 32 kHz, ADPCM; ≈ 9 839 s no total;
+  faixas de ≈ 280 s. Conta: BRR a 32 kHz ≈ **18 KB por segundo** de som mono; a ARAM tem 64 KB com driver e efeitos do SM.
+  **Faixa inteira não cabe.** Só trechos curtos em loop, taxa menor ou só trechos de chefe.
+- **Não feito:** decodificar o ADPCM, converter para BRR, tocar no emulador, medir a ARAM livre (critério da 22a).
+- **Decisões em aberto:** escopo (1 todas as áreas, 2 só chefes e áreas escolhidas, 3 só trechos de chefe, agora com o limite
+  de tamanho); se pode sacrificar efeito do SM; direitos (decisão do usuário, não avaliada aqui).
+
+**Próximos passos sugeridos (depois das decisões):** (a) decidir 21 (3 e 4) e começar a 21c; (b) decidir 22 e seguir a 22a
+(decodificar e converter um trecho); (c) push do commit quando a permissão estiver resolvida; (d) rodar os testes A–D e
+registrar.
+
+**Cuidados desta data:** o scratchpad (`/private/tmp/…`) pode sumir; os roteiros da conferência de cor estão em
+`scratchpad/21c/` (`mk.py` gera os roteiros). Nunca tratar `$C421` como Wave: é a paleta do Charge (o Wave é `$C461`).
+
 ## Como recomeçar (registrado em 13/11/2026)
 
 **Onde parou:**

@@ -130,7 +130,7 @@ a desviar, a spec é atualizada (seção "Desvios") em vez de o código divergir
 | 21 | [Artes do Prime: chefes e Samus, o mais fiel possível](21-artes-prime.md) | aprovada (11/11/2026); em andamento: 21a verificada parcialmente (12/11/2026); 21b em andamento (cores dos feixes em ROM de teste; falta conferir no emulador) |
 | 21a | [Levantamento da arte do Prime](21a-levantamento-arte.md) | etapa (filha do 21; só leitura, ROM igual; 27 texturas medidas, 47 970 cores somadas, limite de 16 cores por paleta; nomes de chefes e Samus achados nos pacotes; tiles da Samus e dos chefes do SM ainda não medidos) | verificada parcialmente |
 | 21b | [Efeitos de poder do Prime](21b-efeitos-de-poder.md) | etapa (filha do 21; ROM de teste `--teste-21b` com as cores medidas do Prime nas paletas de Power, Wave e Ice; ROM do jogo igual; Plasma e Phazon sem cor identificada; conferência no emulador pendente) | em andamento |
-| 22 | [Trilhas sonoras do Prime](22-trilhas-prime.md) | aprovada (11/11/2026); sem filha começada; esforço a definir na 22a (prova de conceito) |
+| 22 | [Trilhas sonoras do Prime](22-trilhas-prime.md) | aprovada (11/11/2026); em andamento: 22a parcial (17/11/2026: cabeçalhos de 115 `.dsp` medidos, ≈ 18 KB/s em ARAM; decodificação e teste no emulador não feitos) |
 | 23 | [Fidelidade ao Prime: visores, scan, HUD, atmosfera, chefes e inimigos](23-fidelidade-prime.md) | aberto (épico, proposta) | sem filha começada; começa com 'pode seguir'; esforço a definir na 23a |
 
 A ordem final de 01–06 pode mudar conforme o esforço medido em cada spec.

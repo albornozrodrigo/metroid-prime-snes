@@ -85,14 +85,25 @@ teste. A Samus, as suits e os chefes não mudam nesta filha.
 - **Não coberto:** Plasma e Phazon (sem grupo de cor identificado) e Charge (o segundo grupo laranja não foi ligado a um feixe).
 - **Pendente:** conferir no emulador (`tools/snesrun`) que o tiro aparece com essas cores. Até lá, nada disso vai para a ROM do jogo. Ver o débito abaixo.
 
-## Débito técnico (validar depois)
+## Conferência da cor na tela (17/11/2026, feita pelo assistente)
 
-Decisão do usuário em 17/11/2026: a conferência visual no headless fica para depois; o desenvolvimento segue.
+Método: a mesma sequência de jogo nas duas ROMs (novo jogo, equipar o feixe, paleta do feixe lida da própria ROM, andar para a
+direita, atirar, 4 fotos). Os pixels que diferem entre a base e a de teste são os do tiro, porque só a paleta do feixe mudou.
+Roteiros e comparação em `scratchpad/21c/`.
 
-- **Medição de cor no headless não confirmada.** As cores de tiro medidas antes (`f76b00`, `732100`, `290029`) são **inválidas**: vieram da paleta de objeto 4 (Samus e efeitos do cano), não do tiro. Nenhuma comparação de cor de tiro feita até aqui vale.
-- **Pixels do tiro não localizados.** O tiro na OAM (sprite com tile `0x30`, atributo `0xEC`, paleta 6) não tem pixels da paleta 6 na caixa dele, no quadro medido. Causa não encontrada: tamanho do sprite (bit da tabela alta), deslocamento da caixa, ou tiles não carregados na VRAM.
-- **Paleta 6 recebe a cor nova na RAM.** Lido de `$7EC1C0`: azul na base, laranja na ROM de teste (após escrever `$C3E1`). Mas não se viu isso sair na tela.
-- **Pausa/despausa no roteiro** deixa `game_state` preso em `0F`; a troca de sala no roteiro não tinha porta alcançável.
-- **O que validar depois:** (1) equipar Power, Wave e Ice na ROM de teste, atirar e ver a cor na tela (no emulador do usuário é o caminho mais rápido); (2) só então decidir se a cor entra na ROM do jogo, com aprovação.
+| Feixe | Base (na tela) | Teste (na tela) | Alvo do Prime | Resultado |
+|---|---|---|---|---|
+| Power | vermelho-laranja (`ff7b31`, `6b2921`) | laranja-dourado (`e79c29`, `c68c21`, `ffde9c`) | `#ffb233` | confere (laranja) |
+| Wave | **amarelo** (`ffff00`, `733900`) | roxo (`9c0073`, `840063`, `d684c6`) | `#aa0080` | confere (roxo) |
+| Ice | azul escuro (`00b5ff`, `0039ad`) | azul (`398cef`, `317bd6`, `a5ceff`) | `#4099ff` | confere (azul) |
 
-Pendências não rodadas nesta rodada: testes de grupo A, B, C e D (última rodada conhecida: A 34, B 64, C 22, D a confirmar).
+- Em todas as fotos as diferenças ficam na caixa do tiro (ex.: Power x111–118, y158–160; Ice x114–123, y156–163).
+- **Correções à spec:** a leitura anterior "Wave `$C461` azul" estava errada (`03FF` é amarelo em BGR555). E o Wave da base, que a
+  seção de fatos chamava de magenta, sai **amarelo** na tela da ROM base.
+- Limites: uma sequência de tiros por feixe, só o frame em voo; Plasma, Phazon e o Charge não foram medidos.
+
+## O que falta antes da ROM do jogo
+
+- Conferência de Plasma e Phazon (sem cor identificada) e do Charge (não ligado a um feixe).
+- Decisão do usuário: entrar com essas cores na ROM do jogo (a ROM do jogo só muda com aprovação).
+- Testes A–D com a ROM de teste (não rodados nesta rodada).

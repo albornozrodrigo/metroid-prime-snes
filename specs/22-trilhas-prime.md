@@ -67,3 +67,20 @@ Estimativa de dias: **a definir na 22a**: a prova de conceito é a medida que de
 
 - Efeitos sonoros novos (fora do pedido; só entrariam se a decisão 2 pedir).
 - Arte (proposta 21).
+
+## 22a — o que foi medido (17/11/2026, parcial)
+
+Feito: só a leitura dos cabeçalhos de todos os `.dsp` (sem converter nada, sem mudar a ROM).
+
+- **115 arquivos `.dsp`**, não 119 como dizia a proposta. Todos em **32 000 Hz**, formato 0 (ADPCM do GameCube). Em grande parte são
+  pares estéreo (`…L.dsp` e `…R.dsp`), e o SNES toca um canal por amostra.
+- Duração total: **≈ 9 839 s (≈ 2 h 44 min)**. As maiores faixas têm ≈ 280 s cada (`ruins-naka`, `rui_samus`, `over-world`).
+- **Conta do tamanho em ARAM (fato do BRR, 9 bytes por 16 amostras):** a 32 kHz são 2 000 blocos/s × 9 = **≈ 18 KB por segundo** de
+  som mono. A ARAM tem **64 KB no total**, e o driver e os efeitos do SM ocupam parte dela. Ou seja: **uma faixa inteira do Prime
+  (≈ 5 MB de BRR) não cabe de jeito nenhum**, e o espaço livre para música cabe **poucos segundos** de som (a medir com o espaço real
+  que sobra depois dos efeitos do SM, filha 22c).
+- Consequência para as decisões: a opção "faixas inteiras" (escopo 3) está descartada pelo tamanho. Só sobram trechos curtos em loop
+  (ex.: 2–4 s de um tema) ou uma taxa menor de amostragem (a medir a qualidade). Isso deve ser decidido pelo usuário.
+
+**Não feito na 22a** (critério de aceite ainda não cumprido): decodificar o ADPCM, converter para BRR, tocar uma amostra no emulador e
+medir o espaço real livre na ARAM. Próximo passo, se o usuário mandar seguir: a decodificação e a conversão de um trecho de uma faixa.
